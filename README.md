@@ -4,7 +4,7 @@
 
 The GIF above displays a trained agent solving the environment. 
 
-The aim of this project is to enable a double-jointed manipulator to autonomously learn how to reach target locations.
+The objective of this project is to train an agent to control a double-jointed arm to move to target locations and maintain its position there for as many time steps as possible. 
 
 A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of the agent is to maintain its position at the target location for as many time steps as possible.
 
