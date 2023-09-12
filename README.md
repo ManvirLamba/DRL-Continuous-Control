@@ -1,18 +1,19 @@
 # DRL-Continuous-Control
 ## Introduction
-![Alt Text](https://github.com/ManvirLamba/Deep-Reinforcement-Learning-Robot-Navigation/blob/main/Media/TrainedAgent.gif)
+![Alt Text](https://github.com/ManvirLamba/DRL-Continuous-Control/blob/main/Media/Solved.gif)
+
 
 The GIF above displays a trained agent solving the environment. 
 
 The objective of this project is to train an agent to control a double-jointed arm to move to target locations and maintain its position there for as many time steps as possible. 
 
-A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of the agent is to maintain its position at the target location for as many time steps as possible.
+A reward of +0.1 is provided for each step the agent's hand is in the goal location. Thus, the goal of the agent is to maintain its position at the target location for as many time steps as possible.
 
-The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector must be a number between -1 and 1.
+The observation space consists of 33 variables corresponding to the position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector must be a number between -1 and 1.
 
-There are 20 identical copies of the agent. It has been shown that having multiple copies of the same agent sharing experience can accelerate learning, and the same is applied in this project.
+There are 20 identical copies of the agent. It has been shown that having multiple copies of the same agent-sharing experience can accelerate learning, and the same is applied in this project.
 
-The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. 
+The environment is considered solved when the average (over 100 episodes) of those average scores is at least +30. 
 
 ## Getting Started 
 
@@ -72,6 +73,6 @@ Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/
 
 Now you are ready to run the code. `cd` to the folder where the notebook is saved and run `jupyter notebook` in the terminal to open the notebook
 ## Rewards Plot
-![Alt Text](https://github.com/ManvirLamba/Deep-Reinforcement-Learning-Robot-Navigation/blob/main/Media/RewardsPlot.png)
+![Alt Text](https://github.com/ManvirLamba/DRL-Continuous-Control/blob/main/Media/RewardPlot.jpg)
 ## Project Report
-The detailed report for this project can be seen [here](https://github.com/ManvirLamba/Deep-Reinforcement-Learning-Robot-Navigation/blob/main/Report.pdf).
+The detailed report for this project can be seen [here](https://github.com/ManvirLamba/DRL-Continuous-Control/blob/main/ReportContinuousControl.pdf).
